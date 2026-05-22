@@ -1,3 +1,4 @@
+
 # Web Authentication, Form Validation, and Database Management
 
 This guide explains how modern websites handle user accounts, secure data, and remember who you are using PHP and MySQL.
@@ -27,4 +28,3 @@ This guide explains how modern websites handle user accounts, secure data, and r
 
 * **Scrambling Passwords:** Real passwords should never be written down in plain text. Instead, they are transformed into a long, unreadable string of random characters before entering the database. Even if someone sneaks a look at the files, the original passwords remain completely hidden.
 * **Cleaning Visual Text:** Before showing any user-submitted text back on a public screen, the system cleans the content to neutralize harmful scripts. This keeps the layout safe and readable for everyone.
-* **Renewing Badges:** The system changes your temporary session badge immediately after you successfully log in. This quick update stops unauthorized eyes from copying and using an old badge to access your account.
